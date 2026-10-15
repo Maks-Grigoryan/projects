@@ -54,25 +54,25 @@
       </div>
     </article>
 
-    <article class="work-card" id="detect-analytics">
+    <article class="work-card" id="ai-analytox">
+      <span id="detect-analytics" aria-hidden="true"></span>
       <div class="work-images work-screens">
-        <a href="https://github.com/Maks-Grigoryan/detect-analytics/blob/main/docs/interface.md" target="_blank" rel="noopener"><img src="assets/detect-live-original.png" alt="Original Live screenshot with four camera indicators online, actual people, pose skeletons and object detections" loading="lazy"></a>
-        <a href="https://github.com/Maks-Grigoryan/detect-analytics/blob/main/docs/interface.md" target="_blank" rel="noopener"><img src="assets/detect-map-original.png" alt="Original floor-plan editor screenshot showing the saved two-room layout, furniture and camera coverage directions" loading="lazy"></a>
+        <a href="https://github.com/Maks-Grigoryan/AI-ANALYTOX/blob/main/docs/interface.md" target="_blank" rel="noopener"><img src="assets/detect-live-original.png" alt="Original Live screenshot with four camera indicators online, actual people, pose skeletons and object detections" loading="lazy"></a>
+        <a href="https://github.com/Maks-Grigoryan/AI-ANALYTOX/blob/main/docs/interface.md" target="_blank" rel="noopener"><img src="assets/detect-map-original.png" alt="Original floor-plan editor screenshot showing the saved two-room layout, furniture and camera coverage directions" loading="lazy"></a>
       </div>
       <div class="work-body">
         <p class="work-no">02</p>
-        <h2>Detect — People &amp; Activity Analytics</h2>
-        <p>On-premise multi-camera analytics for Hikvision streams: face recognition, pose and object tracking, work / phone / idle timelines, custom handgun detection, and live floor-plan routes. Shared TensorRT inference serves a four-camera workstation pipeline, while the browser workspace brings identity, activity and location together.</p>
-        <h3>How it works</h3>
+        <h2>AI ANALYTOX — Multi-Camera Intelligence</h2>
+        <p>Live video analytics, face recognition, activity reporting and floor-plan monitoring in one operator workspace. I optimized GPU sharing, analysis scheduling, frame handling and operational history to keep processing resources focused on useful work.</p>
+        <h3>Engineering focus</h3>
         <ol class="steps">
-          <li><strong>Capture</strong> — isolated SDK workers and shared-memory frame transport</li>
-          <li><strong>Recognize</strong> — SCRFD + ArcFace, track ownership and clothing continuity</li>
-          <li><strong>Understand</strong> — pose / hand-object activity estimates and interval-based reports</li>
-          <li><strong>Locate</strong> — floor-plan calibration, zones, live positions and day replay</li>
+          <li><strong>Share compute</strong> — multiple cameras reuse loaded AI models</li>
+          <li><strong>Control workload</strong> — task budgets and analytics selection per camera</li>
+          <li><strong>Reduce overhead</strong> — efficient frame handling, memory limits and compact history</li>
+          <li><strong>Keep operating</strong> — camera isolation, monitoring and controlled recovery</li>
         </ol>
-        <ul class="tags"><li>YOLO11 pose</li><li>YOLO26</li><li>ArcFace</li><li>TensorRT FP16 / INT8</li><li>Handgun mAP50 0.845</li><li>FastAPI</li><li>SQLite WAL</li></ul>
-        <p class="work-caption">Original operator screenshots from the running application: real camera analytics and the saved floor-plan editor. The full case study includes Faces, Cameras and Branches. The mAP figure is validation performance from the original handgun training run.</p>
-        <a class="btn btn-ghost work-link" href="https://github.com/Maks-Grigoryan/detect-analytics" target="_blank" rel="noopener">Full case study →</a>
+        <ul class="tags"><li>Shared GPU inference</li><li>Efficient frame handling</li><li>Camera recovery</li><li>On-premise analytics</li></ul>
+        <a class="btn btn-ghost work-link" href="https://github.com/Maks-Grigoryan/AI-ANALYTOX" target="_blank" rel="noopener">Full case study →</a>
       </div>
     </article>
   </section>
